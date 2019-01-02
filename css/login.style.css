@@ -1,0 +1,28 @@
+*{
+	margin: 0 auto
+}
+html,body{
+	height: 100%;
+	width: 100%
+}
+.row{
+	padding-top:15% 
+}
+.well{
+	background-color: #FFFAFA
+}
+.well h3{
+	text-align: center;
+	color: #C9302C;
+	font-weight: 600
+}
+.well #form{
+	min-height: 200px;
+	min-width: 200px
+}
+.well #form #username, .well #form #password{
+	color: #C9302C
+}
+.well button{
+	margin-top: 20px;
+}

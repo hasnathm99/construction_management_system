@@ -1,0 +1,30 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	background-color: black;
+	padding: 1% 0; /*top-bottom 1%, left-rifght 0*/
+	font-size: 1.1em /*1em=16px*/
+}
+.navbar-brand {
+	min-height: 40px;
+	padding: 0 10px 5px; /*o-top,15-right,5-bottom*/
+
+}
+.navbar-inverse .navbar-nav li a{
+	overflow: hidden;
+} 
+.navbar-inverse .navbar-nav li a:hover{
+	color: 	 #ff471a;
+	font-size: 1.2em
+}
+a{
+	font-weight: bold;
+}
+#main{
+	padding-top: 100px;
+	padding-left: 5%;
+	height: 100%;
+}
+
